@@ -1,4 +1,4 @@
-__REMEMBER__: to make it work you must have 4-th generation Intel CPU with integrated video. Also you must certainly enable iGPU at BIOS (32-64 MB will be enough).
+__REMEMBER__: to make it work you must have 4-th generation Intel Core CPU with integrated video. Also you must certainly enable iGPU at BIOS (32-64 MB will be enough).
 
 _Some BIOS require additional configurating._
 

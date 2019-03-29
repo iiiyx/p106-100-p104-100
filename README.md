@@ -11,6 +11,7 @@
 11. There will two different section names. For example, for _p106-100_: _Section110_, _Section109_ and for _GTX 1060_: _Section108_, _Section107_. You must change them respectively: _110_ -> _108_, _109_ -> _107_. Just change section name for your device to section for analogus device for every block.
 
 Additional required steps:
+
 12. Disable automatic driver updates: regedit -> Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching -> SearchOrderConfig = 0
 13. Also check Your computer -> Properties -> Advanced system settings -> Hardware -> Device Installation settings -> _No (your device might not work as expected)_ should be set
 14. Uninstall existing NVIDIA drivers using DDU

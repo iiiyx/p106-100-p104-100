@@ -1,11 +1,11 @@
-__REMEMBER__: to make it work you must have 4-th generation Intel Core CPU with integrated video. Also you must certainly enable iGPU at BIOS (32-64 MB will be enough).
+__REMEMBER__: to make it work you must have at least 4-th generation Intel Core CPU with integrated video. Also you must certainly enable iGPU at BIOS (32-64 MB will be enough).
 
 _Some BIOS require additional configurating._
 
 
 Now follow these steps:
 
-1. Download 416.34 NVIDIA driver (without installing it): https://www.nvidia.ru/content/DriverDownload-March2009/confirmation.php?url=/Windows/416.34/416.34-desktop-win10-64bit-international-whql.exe&type=GeForce Some newer drivers are also suitable. I guess this one is the latest https://www.nvidia.ru/content/DriverDownload-March2009/confirmation.php?url=/Windows/417.22/417.22-desktop-win10-64bit-international-whql.exe&type=GeForce
+1. Download 416.34 NVIDIA driver (without installing it): https://www.guru3d.com/files-get/geforce-416-34-whql-driver-download,1.html Some newer drivers are also suitable. I guess this one is the latest https://www.guru3d.com/files-get/geforce-417-22-whql-driver-download,1.html
 2. Right click on it and Extract all to some dir using any archive manager (7zip for example). Let's call this dir YOUR_EXTRACTED_DRIVER_DIR
 3. Open ___nv\_disp.inf___ from YOUR_EXTRACTED_DRIVER_DIR/Display.Driver
 4. Search for your Video Card name (for example _p106-100_) at the end of the file. Something like _NVIDIA\_DEV.___1C07___ = "NVIDIA P106-100"_

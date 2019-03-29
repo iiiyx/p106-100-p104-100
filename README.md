@@ -1,5 +1,6 @@
 __REMEMBER__: to make it work you must have 4-th generation Intel CPU with integrated video. Also you must certainly enable iGPU at BIOS (32-64 MB will be enough).
-_Some BIOS need additional configurating._
+
+_Some BIOS require additional configurating._
 
 1. Download the newest NVIDIA driver (without installing it)
 2. Right click on it and Extract all to some dir using any archive manager (7zip for example). Let's call this dir YOUR_EXTRACTED_DRIVER_DIR

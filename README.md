@@ -14,7 +14,7 @@ Additional required steps:
 
 12. Disable automatic driver updates: regedit -> Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching -> SearchOrderConfig = 0
 13. Also check Your computer -> Properties -> Advanced system settings -> Hardware -> Device Installation settings -> _No (your device might not work as expected)_ should be set
-14. Uninstall existing NVIDIA drivers using DDU
+14. Uninstall existing NVIDIA drivers using DDU (google: display driver uninstaller)
 15. Enable testsinging -> run cmd or powershell (by admin) -> type in the command _bcdedit /set testsigning on_. You will see something like _The operation completed successfully._
 16. Reboot
 17. Run the driver installer from YOUR_EXTRACTED_DRIVER_DIR -> _setup.exe_, click Next, Yes or whatever, choose _Custom install_ and _Make clean installation_, wait for a prompt and confirm you want install this driver anyway. Wait until it finishes.

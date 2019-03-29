@@ -8,7 +8,7 @@
 8. Now search for the section name for analogous device code: something like _%NVIDIA\_DEV.1C06%           = Section108, PCI\VEN\_10DE&DEV\_1C06_
 9. Remember section name _Section108_
 10. Search and replace section name for your device: you will find something like _%NVIDIA\_DEV.1C07%           = Section110, PCI\VEN\_10DE&DEV\_1C07_. Change _Section110_ to _Section108_
-11. There will two different section names. For example, for _p106-100_: _Section110_, _Section109_ and for _GTX 1060_: _Section108_, _Section107_. You must change them respectively: _110_ -> _108_, _109_ -> _107_. Just change section name for your device to section for analogus device for every block.
+11. There will two different section names. For example, for _p106-100_: _Section110_, _Section109_ and for _GTX 1060_: _Section108_, _Section107_. You must change them respectively: _110_ -> _108_, _109_ -> _107_. Just change section name for your device to section for analogus device for every block. Take a look how I changed it at my commit: https://github.com/iiiyx/p106-100-p104-100/commit/b7d774a159a3b19e828e1fdac74a82128898ec17#diff-7393cec44a96cba9ae1207071c71e341
 
 Additional required steps:
 

@@ -25,7 +25,7 @@ Additional required steps:
 15. Enable testsinging -> run ___cmd___ or ___powershell___ (___by admin___) -> enter the command ___bcdedit /set testsigning on___. You will see something like _The operation completed successfully._
 16. Reboot
 17. Run the driver installer from YOUR_EXTRACTED_DRIVER_DIR -> ___setup.exe___, click Next, Yes or whatever, choose _Custom install_ and _Make clean installation_, wait for the prompt and ___confirm___ you want install this driver anyway. Wait until it finishes.
-18. Disable testsigning -> run ___cmd___ or ___powershell___ (___by admin___) -> enet the command ___bcdedit /set testsigning off___. You will see something like _The operation completed successfully._
+18. Disable testsigning -> run ___cmd___ or ___powershell___ (___by admin___) -> enter the command ___bcdedit /set testsigning off___. You will see something like _The operation completed successfully._
 19. Reboot
 20. Go to Display settings -> Graphics settings -> Choose your ___DirectX___ game -> Set ___High performance NVIDIA P106-100___
 21. Enjoy your ___DirectX___ games

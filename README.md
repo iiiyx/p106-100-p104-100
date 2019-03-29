@@ -2,6 +2,9 @@ __REMEMBER__: to make it work you must have 4-th generation Intel CPU with integ
 
 _Some BIOS require additional configurating._
 
+
+Now follow these steps:
+
 1. Download the newest NVIDIA driver (without installing it)
 2. Right click on it and Extract all to some dir using any archive manager (7zip for example). Let's call this dir YOUR_EXTRACTED_DRIVER_DIR
 3. Open ___nv\_disp.inf___ from YOUR_EXTRACTED_DRIVER_DIR/Display.Driver

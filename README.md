@@ -10,6 +10,7 @@ I guess this one is the latest, where NVIDIA didn't disable the FEATURE.
 2. Right click on it and Extract all to some dir using any archive manager (7zip for example). Let's call this dir YOUR_EXTRACTED_DRIVER_DIR
 3. Open ___nv\_dispi.inf___ from YOUR_EXTRACTED_DRIVER_DIR/Display.Driver
 4. Find and "replace all" strings exactly ___= Section110,___ with exactly ___= Section108,___ and also ___= Section109,___ with ___= Section107,___
+_Yes, these strings start with equals sign followed by space (= ) and end with comma (,)_
 
 Additional required steps:
 

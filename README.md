@@ -1,4 +1,4 @@
-__REMEMBER__: to make it work you must have at least 4-th generation Intel Core CPU with integrated video. Also you must certainly enable iGPU at BIOS (32-64 MB will be enough).
+__REMEMBER__: to make it work you must have at least 4-th generation Intel Core CPU with integrated video. Also you must certainly enable iGPU at BIOS (32-64 MB will be enough). And I don't know the way how to start OpenGL games on these mining cards.
 
 _Some BIOS require additional configurating._
 
